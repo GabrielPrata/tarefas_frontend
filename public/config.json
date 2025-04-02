@@ -1,0 +1,7 @@
+{
+  "apiUrl": "https://localhost:55033/api/Tasks/",
+  "getAllTasks": "GetAllTasks",
+  "deleteTask": "DeleteTask",
+  "updateTask": "UpdateTask",
+  "saveNewTask": "SaveNewTask"
+}
