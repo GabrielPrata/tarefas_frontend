@@ -3,8 +3,7 @@ import Button from '@mui/material/Button';
 import Snackbar from '@mui/material/Snackbar';
 import { Alert } from '@mui/material';
 
-export default function MessageSnackBar({message, type, openSnackBar}) {
-    const [open, setOpen] = React.useState(openSnackBar);
+export default function MessageSnackBar({message, type, showSnackBar, setShowSnackBar}) {
 
 
     const handleClose = (event, reason) => {
@@ -12,13 +11,13 @@ export default function MessageSnackBar({message, type, openSnackBar}) {
             return;
         }
 
-        setOpen(false);
+        setShowSnackBar(false);
     };
 
 
     return (
         <div>
-            <Snackbar open={open} autoHideDuration={6000} onClose={handleClose}>
+            <Snackbar open={showSnackBar} autoHideDuration={6000} onClose={handleClose}>
                 <Alert
                     onClose={handleClose}
                     severity={type}

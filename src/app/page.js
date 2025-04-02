@@ -25,7 +25,7 @@ export default function Home() {
       display: 'flex',
       justifyContent: 'center',
       alignItems: 'center',
-      minHeight: '100vh', // Ocupa 100% da altura da viewport
+      minHeight: '100vh',
     }}>
       <CircularProgress />
     </Box>;
@@ -38,6 +38,8 @@ export default function Home() {
           apiUrl={appConfig.apiUrl}
           allTasksEndpoint={appConfig.getAllTasks}
           deleteTaskEndpoint={appConfig.deleteTask}
+          updateTaskEndpoint={appConfig.updateTask}
+          createTaskEndpoint={appConfig.saveNewTask}
         />
       </Container>
     </Box>
