@@ -29,7 +29,7 @@ export default function MainTable({ apiUrl, allTasksEndpoint, deleteTaskEndpoint
             field: 'dataCriacao',
             headerName: 'Data de Criação',
             width: 200,
-            valueGetter: (params) => `${dayjs(params).format('DD/MM/YYYY [às] HH:mm')}`
+            valueGetter: (params) => `${dayjs(params).format('DD/MM/YYYY')}`
         },
         {
             field: 'dataConclusao',
@@ -37,7 +37,7 @@ export default function MainTable({ apiUrl, allTasksEndpoint, deleteTaskEndpoint
             width: 200,
             valueGetter: (params) => {
                 if (params) {
-                    return `${dayjs(params).format('DD/MM/YYYY [às] HH:mm')}`;
+                    return `${dayjs(params).format('DD/MM/YYYY')}`;
                 } else {
                     return '-';
                 }
