@@ -1,6 +1,47 @@
 Front-End desenvolvido em NextJS.
 Repositorio do Back-End: https://github.com/GabrielPrata/API-Tarefas
 
+# tarefas_frontend
+Bem-vindo ao repositório do front-end do - [API-Tarefas](https://github.com/GabrielPrata/API-Tarefas)! 
+Este projeto foi desenvolvido utilizando [Next.js](https://nextjs.org/) e [React](https://reactjs.org/), visando oferecer uma experiência de usuário rápida e responsiva com renderização otimizada e SEO aprimorado.
+
+## Descrição
+A apliação conta com um layout simples e intuitívo, onde se é possível visualizar as tarefas existentes, editar e deletar tarefas.
+Também deve ser integrada com sua API, para que funcione corretamente.
+
+## Tecnologias Utilizadas
+- [Next.js](https://nextjs.org/)
+- [React](https://reactjs.org/)
+- [Node.js](https://nodejs.org/)
+
+## Pré-requisitos
+Antes de executar o projeto, certifique-se de ter instalado:
+- [Node.js LTS](https://nodejs.org/) (versão 14 ou superior, dependendo dos requisitos do projeto);
+- npm para gerenciamento de pacotes;
+- Visual Studio Code.
+
+## Instalação
+1. **Clone o repositório:**
+   ```bash
+   git clone https://github.com/GabrielPrata/tarefas_frontend.git)
+
+2. **Instalação de dependências**
+   Certifique-se de estar dentro da pasta do projeto e rode o comando:
+   ```bash
+    npm install
+
+## Configuração de ambiente
+Dentro da pasta public é possível encontar o arquivo **config.json**, edite o parâmetro "apiUrl" caso seja necessário para a porta em que sua API está rodando;
+Caso não saiba como configurar a API, clique [AQUI](https://github.com/GabrielPrata/API-Tarefas))
+
+## Rodando o projeto 
+  Novamente, certifique-se de estar dentro da pasta do projeto e agora rode o comando:
+  ```bash
+  npm start
+```
+
+##Documentação do NextJS
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
