@@ -2,11 +2,11 @@ Front-End desenvolvido em NextJS.
 Repositorio do Back-End: https://github.com/GabrielPrata/API-Tarefas
 
 # tarefas_frontend
-Bem-vindo ao repositório do front-end do - [API-Tarefas](https://github.com/GabrielPrata/API-Tarefas)! 
+Bem-vindo ao repositório do front-end do - [API-Tarefas](https://github.com/GabrielPrata/API-Tarefas)! <br>
 Este projeto foi desenvolvido utilizando [Next.js](https://nextjs.org/) e [React](https://reactjs.org/), visando oferecer uma experiência de usuário rápida e responsiva com renderização otimizada e SEO aprimorado.
 
 ## Descrição
-A apliação conta com um layout simples e intuitívo, onde se é possível visualizar as tarefas existentes, editar e deletar tarefas.
+A apliação conta com um layout simples e intuitívo, onde se é possível visualizar as tarefas existentes, editar e deletar tarefas. <br>
 Também deve ser integrada com sua API, para que funcione corretamente.
 
 ## Tecnologias Utilizadas
@@ -31,8 +31,8 @@ Antes de executar o projeto, certifique-se de ter instalado:
     npm install
 
 ## Configuração de ambiente
-Dentro da pasta public é possível encontar o arquivo **config.json**, edite o parâmetro "apiUrl" caso seja necessário para a porta em que sua API está rodando;
-Caso não saiba como configurar a API, clique [AQUI](https://github.com/GabrielPrata/API-Tarefas))
+Dentro da pasta public é possível encontar o arquivo **config.json**, edite o parâmetro "apiUrl" caso seja necessário para a porta em que sua API está rodando; <br>
+Caso não saiba como configurar a API, clique [AQUI](https://github.com/GabrielPrata/API-Tarefas)
 
 ## Rodando o projeto 
   Novamente, certifique-se de estar dentro da pasta do projeto e agora rode o comando:
