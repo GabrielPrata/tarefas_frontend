@@ -39,8 +39,9 @@ Caso não saiba como configurar a API, clique [AQUI](https://github.com/GabrielP
   ```bash
   npm start
 ```
+<br>
 
-##Documentação do NextJS
+## Documentação do NextJS ----
 
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
